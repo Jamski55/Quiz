@@ -1,0 +1,57 @@
+[
+    {
+        "question": "Quelle est la capitale de la France ?",
+        "choices": ["Paris", "Lyon", "Marseille", "Nice"],
+        "correct": 0
+    },
+    {
+        "question": "Quelle est la couleur du ciel ?",
+        "choices": ["Rouge", "Bleu", "Vert", "Jaune"],
+        "correct": 1
+    },
+    {
+        "question": "Quel est le plus grand océan du monde ?",
+        "choices": ["Atlantique", "Indien", "Arctique", "Pacifique"],
+        "correct": 3
+    },
+    {
+        "question": "Quel est l'animal terrestre le plus rapide ?",
+        "choices": ["Lion", "Tigre", "Guépard", "Éléphant"],
+        "correct": 2
+    },
+    {
+        "question": "Qui a écrit 'Les Misérables' ?",
+        "choices": ["Victor Hugo", "Émile Zola", "Marcel Proust", "Gustave Flaubert"],
+        "correct": 0
+    },
+    {
+        "question": "Quelle est la langue officielle du Brésil ?",
+        "choices": ["Espagnol", "Anglais", "Français", "Portugais"],
+        "correct": 3
+    },
+    {
+        "question": "Quel est l'organe principal de la circulation sanguine ?",
+        "choices": ["Poumons", "Cœur", "Foie", "Reins"],
+        "correct": 1
+    },
+    {
+        "question": "Quelle planète est connue comme la planète rouge ?",
+        "choices": ["Vénus", "Saturne", "Jupiter", "Mars"],
+        "correct": 3
+    },
+    {
+        "question": "Quel est le plus grand pays du monde ?",
+        "choices": ["États-Unis", "Canada", "Chine", "Russie"],
+        "correct": 3
+    },
+    {
+        "question": "Qui a peint la Mona Lisa ?",
+        "choices": ["Pablo Picasso", "Vincent van Gogh", "Leonard de Vinci", "Claude Monet"],
+        "correct": 2
+    },
+    {
+        "question": "Quel est le principal gaz à effet de serre ?",
+        "choices": ["Oxygène", "Azote", "Dioxyde de carbone", "Hydrogène"],
+        "correct": 2
+    }
+]

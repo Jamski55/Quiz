@@ -1,0 +1,39 @@
+/* Style global pour la page */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4; /* Couleur de fond légère */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Remplit tout l'écran verticalement */
+}
+
+/* Conteneur principal du quiz */
+#quiz-container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px; /* Angles arrondis */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre légère */
+    width: 300px;
+    text-align: center;
+}
+
+/* Style des boutons de réponse */
+button.choice {
+    display: block;
+    width: 100%;
+    margin: 10px 0; /* Espacement entre chaque bouton */
+    padding: 10px;
+    border: none;
+    background-color: #007BFF; /* Couleur bleue */
+    color: white;
+    border-radius: 5px;
+    cursor: pointer; /* Curseur en main */
+    transition: background-color 0.3s; /* Transition douce */
+}
+
+/* Changement de couleur au survol */
+button.choice:hover {
+    background-color: #0056b3;
+}
+
