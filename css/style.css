@@ -6,16 +6,29 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh; /* Remplit tout l'écran verticalement */
+    margin: 0;
 }
 
 /* Conteneur principal du quiz */
-#quiz-container {
+#quiz {
     background: white;
     padding: 20px;
     border-radius: 10px; /* Angles arrondis */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre légère */
     width: 300px;
     text-align: center;
+}
+
+/* Style du timer */
+#timer {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* Style de la question */
+#question {
+    font-size: 20px;
+    margin-bottom: 20px;
 }
 
 /* Style des boutons de réponse */
@@ -37,3 +50,54 @@ button.choice:hover {
     background-color: #0056b3;
 }
 
+/* Style du résultat */
+#result {
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* Style du score actuel */
+#current-score {
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* Style du bouton suivant */
+#next {
+    display: block;
+    width: 100%;
+    margin: 10px 0; /* Espacement entre chaque bouton */
+    padding: 10px;
+    border: none;
+    background-color: #28a745; /* Couleur verte */
+    color: white;
+    border-radius: 5px;
+    cursor: pointer; /* Curseur en main */
+    transition: background-color 0.3s; /* Transition douce */
+}
+
+/* Changement de couleur au survol */
+#next:hover {
+    background-color: #218838;
+}
+
+/* Style du bouton sauvegarder */
+#save {
+    display: block;
+    width: 100%;
+    margin: 10px 0; /* Espacement entre chaque bouton */
+    padding: 10px;
+    border: none;
+    background-color: #ffc107; /* Couleur jaune */
+    color: white;
+    border-radius: 5px;
+    cursor: pointer; /* Curseur en main */
+    transition: background-color 0.3s; /* Transition douce */
+}
+
+/* Changement de couleur au survol */
+#save:hover {
+    background-color: #e0a800;
+}

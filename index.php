@@ -1,32 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quiz Dynamique</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/script.js" defer></script>
 </head>
-
 <body>
-
-    <div id="quiz-container">
-    <p id="timer">Temps restant : 30s</p> <!-- Affiche le compte à rebours --> 
-        <h2 id="question">Question ici</h2> <!-- Affiche la question actuelle -->
-        <div id="choices">
-            <button class="choice">Réponse 1</button>
-            <button class="choice">Réponse 2</button>
-            <button class="choice">Réponse 3</button>
-            <button class="choice">Réponse 4</button>
+    <div id="quiz">
+        <div id="timer">Temps restant : 30s</div>
+        <div id="question"></div>
+        <div class="choices">
+            <button class="choice"></button>
+            <button class="choice"></button>
+            <button class="choice"></button>
+            <button class="choice"></button>
         </div>
-        <button id="next">Suivant</button> <!-- Bouton pour passer a la question suivante --> 
-        <form id="scoreForm" method="POST" action="save_score.php">
-            <input type="hidden" id="scoreInput" name="score" value="">
-            <button type="submit">Sauvegarder le score</button>
-        </form>
+        <div id="result"></div>
+        <div id="current-score">Score actuel : 0</div>
+        <button id="next" style="display:none;">Suivant</button>
+        <button id="save" style="display:none;">Sauvegarder</button>
     </div>
-    <script src="js/script.js"></script> <!-- Lié au fichier JavaScript pour gérer la logique du quiz --> 
-
-
 </body>
-
 </html>
